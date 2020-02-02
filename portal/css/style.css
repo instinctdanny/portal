@@ -1,0 +1,95 @@
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  outline: none;
+  background: #f7f7f7;
+  color: #5a738e !important; }
+
+.logo {
+  display: initial;
+  margin: 0;
+  ine-height: inherit;
+  white-space: nowrap;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-weight: 300px;
+  font-family: "PT Sans Caption", sans-serif; }
+
+nav {
+  border: 0px !important; }
+  nav .navbar-header {
+    background: #ededed !important; }
+  nav .dropdown-menu {
+    background: #fafafa; }
+  nav #headlinks {
+    background: #ededed; }
+    nav #headlinks ul li a {
+      color: #5a738e !important;
+      background: #f2f2f2;
+      margin-left: 3px; }
+    nav #headlinks ul li a:hover {
+      background: #f7f7f7; }
+
+.panel {
+  border: 1.2px solid #d4d4d4 !important; }
+  .panel .panel-heading {
+    background: #ededed !important;
+    color: #5a738e;
+    border-radius: 0px !important; }
+  .panel .panel-body {
+    background: white !important;
+    color: #737d8c; }
+    .panel .panel-body small {
+      color: #737d8c; }
+
+#imgs {
+  border-radius: 40px;
+  height: 80px;
+  width: 80px; }
+
+.link-panel {
+  padding: 0px; }
+  .link-panel .list-group .list-group-item {
+    color: #737d8c;
+    -webkit-transition: 0.7s linear;
+    -o-transition: 0.7s linear;
+    transition: 0.7s linear; }
+  .link-panel .list-group .list-group-item:hover {
+    background: #f7f7f7 !important; }
+
+.btn {
+  background: #51be78 !important;
+  border-color: #51be78;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #FFF;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  border-radius: 0px !important;
+  -webkit-transition: 0.7s linear;
+  -o-transition: 0.7s linear;
+  transition: 0.7s linear; }
+
+.list-group {
+  margin-top: -20px; }
+
+.list-group-item {
+  border-radius: 0px !important;
+  height: 47px;
+  text-transform: uppercase; }
+
+@media print {
+  body * {
+    visibility: hidden; }
+  #contentx * {
+    visibility: visible; }
+  #contentx {
+    position: absolute;
+    top: 40px;
+    left: 30px; } }
